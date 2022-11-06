@@ -8,6 +8,7 @@
 
 .logo {
     color: var(--logo-color);
+
 }
 
 .img-and-name {
@@ -41,3 +42,10 @@ img {
     }
 
 }
+
+/* @media screen and (max-width: 475px) {
+    .logo {
+        padding-left: 1rem;
+        margin-left: 1rem;
+    }
+} */

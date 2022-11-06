@@ -11,7 +11,7 @@ function Navbar() {
         <header className="container">
             <div className="navbar-container">
                 {/* <img src="../assets/images/cropped-AltSchool-Logo-1.webp" alt="" style={{ width: "%" }} /> */}
-                <h1 className="logo">AltSchool Exam</h1>
+                <h1 className="logo">AltSchool</h1>
 
                 {/* Image & Names */}
                 <div className="img-and-name">

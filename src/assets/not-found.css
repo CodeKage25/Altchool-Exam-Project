@@ -23,5 +23,5 @@ font-weight: bold;
 .link-cta {
   text-decoration: none;
   color: var(--pry-color);
-  background-color: var(--pry-color);
+  /* background-color: var(--pry-color); */
 }
