@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <header className="container">
             <div className="navbar-container">
-                <h1 className="logo">AltSchool Second Semester Exam</h1>
+                <h1 className="logo">AltSchool Exam</h1>
 
                 {/* Image & Names */}
                 <div className="img-and-name">
