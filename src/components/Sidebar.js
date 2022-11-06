@@ -8,7 +8,7 @@ function Sidebar() {
                 {SidebarData.map((val, key) => {
                     return (
                         <li key={key}
-                            id={window.location.pathname === val.link ? "active" : ""}
+                            id={window.location.pathname === val.link ? "active" : "{style.color = 'red'}"}
                             onClick={() => {
                                 window.location.pathname = val.link;
                             }} >

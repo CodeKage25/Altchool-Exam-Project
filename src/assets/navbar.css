@@ -26,6 +26,13 @@ img {
     margin-left: 16px;
 }
 
+.link {
+    color: var(--pry-color);
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
 
 /* Media Query */
 @media screen and (max-width: 550px) {

@@ -5,8 +5,8 @@ function NotFound() {
     return (
         <div className='error-container'>
             <h1>404 Error</h1>
-            <p>This page does not exist</p>
-            <Link className='link-cta' to="/">Go back Home</Link>
+            <p className='text'>This page does not exist</p>
+            <Link className='link-cta' to="/">Go to Profile page</Link>
         </div>
     )
 }

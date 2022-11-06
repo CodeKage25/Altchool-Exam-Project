@@ -9,6 +9,17 @@ h1 {
   font-weight: bold;
 }
 
+.text {
+  margin: 8px 0;
+  margin-top: 16px;
+}
+
+.link-cta {
+text-decoration: none;
+color: var(--pry-color);
+font-weight: bold;
+}
+
 .link-cta {
   text-decoration: none;
   color: var(--pry-color);

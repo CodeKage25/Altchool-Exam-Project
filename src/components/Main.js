@@ -6,7 +6,7 @@ import '../assets/main.css'
 function Main() {
     return (
         <section >
-            <div>
+            <div className="name">
                 <Navbar />
 
                 <div className="main-page container">

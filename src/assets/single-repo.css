@@ -1,0 +1,17 @@
+@import url("../index.css");
+@import url("./profile.css");
+
+.project-name {
+    margin-top: 8px;
+}
+
+.date-info {
+    font-weight: normal;
+    margin-top: 4px;
+}
+
+.my-repo {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}

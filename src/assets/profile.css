@@ -14,11 +14,18 @@ h1 {
   margin-bottom: 40px;
   width: auto;
   max-width: 536px;
+  font-weight: bold;
 }
 
 .extra {
   display: flex;
   gap: 16px;
+}
+
+.about {
+  margin-top: 24px;
+  font-weight: normal;
+  line-height: 24px;
 }
 
 .followers {
