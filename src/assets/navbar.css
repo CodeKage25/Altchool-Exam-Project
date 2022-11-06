@@ -1,0 +1,36 @@
+@import url('../index.css'); 
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--logo-color);
+}
+
+.img-and-name {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-weight: 600;
+    color: var(--logo-color);
+}
+
+img {
+    border-radius: 50%;
+    height: 45px;
+    margin-left: 16px;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 550px) {
+    .name {
+        display: none;
+    }
+
+}

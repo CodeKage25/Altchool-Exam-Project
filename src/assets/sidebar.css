@@ -1,0 +1,23 @@
+@import url("../index.css");
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+li {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--text-color-two);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 620px) {
+  .sidebar-list {
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 24px;
+  }
+}

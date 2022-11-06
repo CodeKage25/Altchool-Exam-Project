@@ -1,0 +1,54 @@
+@import url("../index.css");
+
+h1 {
+  color: var(--pry-color);
+  margin-bottom: 16px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.details-holder {
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  margin-bottom: 40px;
+  width: auto;
+  max-width: 536px;
+}
+
+.extra {
+  display: flex;
+  gap: 16px;
+}
+
+.followers {
+  display: flex;
+  gap: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 4px;
+}
+
+.user-img {
+  border-radius: 0;
+  height: 82px;
+  margin-left: 0;
+}
+
+.extra-head {
+  color: var(--pry-color);
+  font-weight: 800;
+  font-size: 16px;
+}
+
+p {
+  color: var(--text-color-two);
+}
+
+@media screen and (max-width: 620px) {
+  .heading {
+    font-size: 18px;
+  }
+}

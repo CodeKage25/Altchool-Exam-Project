@@ -1,0 +1,13 @@
+@import url('../index.css'); 
+
+.main-page {
+    display: flex;
+    gap: 120px;
+}
+
+@media screen and (max-width: 620px) {
+    .main-page {
+        flex-direction: column;
+        gap: 32px;
+    }
+}

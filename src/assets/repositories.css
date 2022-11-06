@@ -1,0 +1,48 @@
+@import url("../index.css");https://bruno-simon.com/
+@import url("./profile.css");
+
+.heading-2 {
+  color: var(--text-color);
+  line-height: 26px;
+}
+
+.description {
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.repos-info {
+  display: flex;
+  margin: 8px 0 16px;
+  font-size: 14px;
+  gap: 16px;
+}
+
+.cta {
+  text-decoration: none;
+  color: var(--pry-color);
+  display: block;
+
+}
+
+.buttons {
+    margin-bottom: 72px;
+    display: flex;
+    gap: 8px;
+}
+
+Button {
+    background-color: var(--pry-color);
+    border: 1px solid var(--pry-color);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+Button:hover {
+    color: var(--pry-color-hover);
+    border: 1px solid var(--pry-color);
+    background-color: #fff;
+    padding: 8px 12px;
+}

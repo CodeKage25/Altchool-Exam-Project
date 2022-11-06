@@ -1,0 +1,16 @@
+@import url("../index.css");
+
+.error-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.link-cta {
+  text-decoration: none;
+  color: var(--pry-color);
+  background-color: var(--pry-color);
+}
