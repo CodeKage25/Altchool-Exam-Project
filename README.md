@@ -1,6 +1,6 @@
 ## About Project
 
-Implemented an API fetch of my GitHub portfolio, and showed a page with a list of all your repositories on GitHub(with implementation of pagination for the repo list), and created a single page showing data for a single repo clicked from the list of repos using nested routes while using all the necessary tools in react. I also implemented a proper SEO, Error Boundary and 404 page.
+Implemented an API fetch of my GitHub portfolio, and showed a page with a list of all my repositories on GitHub(with implementation of pagination for the repo list), and created a single page showing data for a single repo clicked from the list of repos using nested routes while using all the necessary tools in react. I also implemented a proper SEO, Error Boundary and 404 page.
 
 ## Available Scripts
 
